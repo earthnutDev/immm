@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      a-node-tools:
+        specifier: ^0.0.4
+        version: 0.0.4
+
+packages:
+
+  a-js-tools@0.0.0:
+    resolution: {integrity: sha512-pVtho/AH5xEp5kL2Sw9hiSRi7RmkeiIxExsMXsConoiEYN6gmKB2Zr6UbJeIKQBiQmtz3bsqxeXDvgsIoYhVTA==}
+
+  a-node-tools@0.0.4:
+    resolution: {integrity: sha512-JaWd89bOCMOTibzcX7Lost1vzhCzGIYQSPFXALtCdMdcdd1y+IvCrunmYZ2+LLsO3k1Tbutw7AYSCDGq2+Gwwg==}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+snapshots:
+
+  a-js-tools@0.0.0:
+    dependencies:
+      tslib: 2.8.1
+
+  a-node-tools@0.0.4:
+    dependencies:
+      a-js-tools: 0.0.0
+
+  tslib@2.8.1: {}

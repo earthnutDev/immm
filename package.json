@@ -2,40 +2,16 @@
   "name": "immm",
   "type": "module",
   "version": "0.0.1",
-  "author": "lmssee  <lmssee@outlook.com>  (https://lmssee.com)",
   "description": "Abbreviated  version of command `npx a-edge-extends-types`",
   "scripts": {
-    "diff": "ixxx pkg diff",
-    "eslint": "ixxx cls && eslint src",
+    "diff": "jja pkg diff",
+    "eslint": "jja cls && eslint src",
     "beautify": "npm run prettier",
-    "prettier": "ixxx cls && prettier . --write",
-    "test": "ixxx cls && rollup --config rollup.config.test.js && node test/out/test/index.mjs"
+    "prettier": "jja cls && prettier . --write",
+    "test": "jja cls && rollup --config rollup.config.test.js && node test/out/test/index.mjs"
   },
-  "files": [
-    "bin/"
-  ],
-  "keywords": [
-    "immm",
-    "a-edge-extends-types"
-  ],
-  "license": "ISC",
-  "homepage": "https://lmssee.com/immm",
-  "bugs": {
-    "url": "https://github.com/lmssee/npm-immm/issues",
-    "email": "lmssee@outlook.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lmssee/npm-immm.git')"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
+  "license": "MIT",
   "dependencies": {
     "a-node-tools": "^0.0.4"
-  },
-  "bin": {
-    "immm": "bin/index.js"
   }
 }
